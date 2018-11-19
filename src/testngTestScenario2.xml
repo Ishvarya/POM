@@ -1,0 +1,134 @@
+<suite name = "Test Scenario 2-Testing various functionalities under Administration->User.">
+	<test name = "TestCase 2e: Quick addition of user">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.quickAddUser"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2b: De-activating existing active user/users">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.deactivateUser"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2a: Activating existing inactive user/users">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.activateUser"/>
+		</classes>
+	</test>
+	
+	<test name = "TestCase 2c: Adding role(s) to existing user(s)">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.addRole"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2d: Removing role(s) from existing user(s)">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.removeRole"/>
+		</classes>
+	</test>
+	
+	<test name = "TestCase 2f: Editing information of an existing user">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.editUserInfo"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2g: Changing the interface language of existing users">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter names = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.changeInterfaceLanguage"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2h: Search for existing user(s)">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.searchUser"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2i: Testing sort feature">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.sortCheck"/>
+		</classes>
+	</test>
+	<test name = "TestCase 2j: Testing mouse hover feature">
+		<groups>
+			<run>
+				<include name = "Smoke Testing"/>
+			</run>
+		</groups>
+		<parameter name = "browserType" value = "Firefox"/>
+		<!-- <parameter name = "browserType" value = "Chrome"/> -->
+		<!-- <parameter name = "browserType" value = "IExplorer"/> -->
+		<classes>
+			<class name = "user.showDetails"/>
+		</classes>
+	</test>
+</suite>
